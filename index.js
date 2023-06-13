@@ -20,12 +20,12 @@ const mdLinks = (paths, option = {}) => {
   });
 };
 
-mdLinks('./test/mockLinks.md', {validate:true})
+mdLinks('./rutasPrueba.md', {validate:true})
 .then((result) => {
-/*   console.log('Resultado: ', result); */
+  console.log('Resultado: ', result);
 })
 .catch((err) => {
-/*   console.log(err) */
+  console.log(err)
 });;
 
 module.exports = mdLinks;
