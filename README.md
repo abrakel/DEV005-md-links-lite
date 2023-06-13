@@ -20,7 +20,7 @@ Con Markdown Links Lite, ya no se tendrá que buscar manualmente los enlaces en 
 
 ## 2. Instrucciones de uso
 
-1. Utiliza la función mdLinks para ingresar la ruta del archivo del que se desea extraer links y solicita la verificación de ellos a través del objeto validate: true.
+1. Utiliza la función mdLinks para ingresar la ruta del archivo del que se desea extraer links y solicita la verificación de ellos a través del objeto **validate: true**.
 
 ![Función mdLinks](./img/mdLinks-validate.jpg)
 
@@ -44,6 +44,10 @@ Con Markdown Links Lite, ya no se tendrá que buscar manualmente los enlaces en 
 Todas estas opciones permiten obtener el mismo resultado:
 
 ![Información entregada sin validación](./img/resultadoSoloRuta.jpg)
+
+3. En caso de que la ruta ingresada no fuese un archivo markdown, se verá un mensaje de error en el terminal:
+
+![Error](./img/noExistenArchivos.jpg)
 
 
 ## 3. Funcionamiento de la librería

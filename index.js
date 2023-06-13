@@ -20,12 +20,12 @@ const mdLinks = (paths, option = {}) => {
   });
 };
 
-mdLinks('./rutasPrueba.md', {validate:true})
+mdLinks('./rutasPruebas.md', {validate:true})
 .then((result) => {
   console.log('Resultado: ', result);
 })
 .catch((err) => {
-  console.log(err)
+  console.log('No existe la ruta o archivos markdown')
 });;
 
 module.exports = mdLinks;
