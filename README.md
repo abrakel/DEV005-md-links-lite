@@ -4,8 +4,7 @@
 
 * [1. Descripción](#1-descripción)
 * [2. Instrucciones de uso](#2-instrucciones-de-uso)
-* [3. Documentación](#3-documentacion)
-* [4. Ejemplos](#4-ejemplos)
+* [3. Funcionamiento de la librería](#3-funcionamiento-de-la-libreria)
 
 ***
 
@@ -28,16 +27,16 @@ Con Markdown Links Lite, ya no se tendrá que buscar manualmente los enlaces en 
 
 ![Información entregada](./img/resultado.jpg)
 
-* Si se desea obtener solo el texto, url y ubicación de los links, existen tres opciones:
+### * Si se desea obtener solo el texto, url y ubicación de los links, existen tres opciones:
 
-### 1. Ingresar solo la ruta:
+#### 1. Ingresar solo la ruta:
 ![Opción 1](./img/soloIngresoRutaEnMdLinks.jpg)
 
-### 2. Ingresar la Ruta y validate: false:
+#### 2. Ingresar la Ruta y validate: false:
 
 ![Opción 2](./img/conValidateFalse.jpg)
 
-### 3. Ingresar la ruta del archivo y dejar el objeto vacío:
+#### 3. Ingresar la ruta del archivo y dejar el objeto vacío:
 
 ![Opción 3](./img/mdLinksConObjetoVacio.jpg)
 
