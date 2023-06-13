@@ -1,4 +1,3 @@
-const fs = require('fs');
 const readFile = require('./readFile.js')
 const validate = require('./validate.js')
 
@@ -16,16 +15,17 @@ const mdLinks = (paths, option = {}) => {
         }
       })
       .catch((err) => {
-      console.log(err)
       reject (err);
     });;        
   });
 };
 
-mdLinks(absolute, {})
+mdLinks('./rutasPruebas.md', {validate:true})
 .then((result) => {
   console.log('Resultado: ', result);
 })
 .catch((err) => {
-  console.log(err)
+  console.log('No existe la ruta o archivos markdown')
 });;
+
+module.exports = mdLinks;
