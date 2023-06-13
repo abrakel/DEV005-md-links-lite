@@ -26,4 +26,3 @@ const validate = (objectLink) => {
 };
 
 module.exports = validate;
-

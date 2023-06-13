@@ -7,10 +7,10 @@ const validateRoute = (paths) => {
     if (path.isAbsolute(paths) === true){
       return paths;
     } else {
-      return path.resolve(paths);
+      return path.resolve(paths).replace(/\\/g, '/');
     };
   } else {
-      return 'no existe la ruta y/o archivos markdow';
+      return 'No existe la ruta y/o archivos markdow';
   };
 };
 

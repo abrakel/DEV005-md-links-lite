@@ -21,6 +21,5 @@ const readFile = (paths) => {
     })
   });
 };
-
 module.exports = readFile;
 
