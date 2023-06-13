@@ -4,8 +4,7 @@
 
 * [1. Descripción](#1-descripción)
 * [2. Instrucciones de uso](#2-instrucciones-de-uso)
-* [3. Documentación](#3-documentacion)
-* [4. Ejemplos](#4-ejemplos)
+* [3. Funcionamiento de la librería](#3-funcionamiento-de-la-libreria)
 
 ***
 
@@ -20,7 +19,7 @@ Con Markdown Links Lite, ya no se tendrá que buscar manualmente los enlaces en 
 
 ## 2. Instrucciones de uso
 
-1. Utiliza la función mdLinks para ingresar la ruta del archivo del que se desea extraer links y solicita la verificación de ellos a través del objeto **validate: true**.
+1. Utiliza la función mdLinks para ingresar la ruta del archivo del que se desea extraer links y solicita la validación de ellos a través del objeto validate: true.
 
 ![Función mdLinks](./img/mdLinks-validate.jpg)
 
@@ -28,16 +27,16 @@ Con Markdown Links Lite, ya no se tendrá que buscar manualmente los enlaces en 
 
 ![Información entregada](./img/resultado.jpg)
 
-* Si se desea obtener solo el texto, url y ubicación de los links, existen tres opciones:
+#### * Si se desea obtener solo el texto, url y ubicación de los links, existen tres opciones:
 
-### 1. Ingresar solo la ruta:
+#### 1. Ingresar solo la ruta:
 ![Opción 1](./img/soloIngresoRutaEnMdLinks.jpg)
 
-### 2. Ingresar la Ruta y validate: false:
+#### 2. Ingresar la Ruta y validate: false:
 
 ![Opción 2](./img/conValidateFalse.jpg)
 
-### 3. Ingresar la ruta del archivo y dejar el objeto vacío:
+#### 3. Ingresar la ruta del archivo y dejar el objeto vacío:
 
 ![Opción 3](./img/mdLinksConObjetoVacio.jpg)
 
@@ -45,7 +44,7 @@ Todas estas opciones permiten obtener el mismo resultado:
 
 ![Información entregada sin validación](./img/resultadoSoloRuta.jpg)
 
-3. En caso de que la ruta ingresada no fuese un archivo markdown, se verá un mensaje de error en el terminal:
+Si la ruta ingresada no es valida o no es un archivo markdown, se entregará el siguiente error por el terminal:
 
 ![Error](./img/noExistenArchivos.jpg)
 
