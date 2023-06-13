@@ -4,7 +4,7 @@
 
 * [1. Descripción](#1-descripción)
 * [2. Instrucciones de uso](#2-instrucciones-de-uso)
-* [3. Funcionamiento de la librería](#3-funcionamiento-de-la-libreria)
+* [3. Funcionamiento de la librería](#3-funcionamiento-de-la-librería)
 
 ***
 
